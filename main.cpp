@@ -1,8 +1,22 @@
 #include <iostream>
+#include "cat.h" // 자식을 가져오면 부모 헤더까지 가져올 수 있음
+#include "Dog.h"
 
 int main()
 {
-	
+	Cat nabi;
+	nabi.setAge(2);
+	nabi.SetBreed(Cat::BREED::TurkishAngora);
+	nabi.Sound();
+	nabi.Grooming();
+
+	Dog marry;
+	marry.setAge(2);
+	marry.SetBreed(Dog::BREED::Jindo);
+	marry.SetSize(Dog::Size::Large);
+	marry.Sound();
+	marry.Bark();
+
 }
 
 /*
