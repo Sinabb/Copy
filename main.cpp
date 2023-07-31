@@ -1,5 +1,13 @@
 #include <iostream>
 
+int main()
+{
+	
+}
+
+/*
+#include <iostream>
+
 class MyClass
 {
 
@@ -30,3 +38,4 @@ int main()
 
 	MyClass c3(MyClass(1));
 }
+*/
