@@ -3,11 +3,12 @@
 
 Dog::Dog():mBreed{BREED::Jindo}
 {
-	
+	std::cout << "\t + Dog" << std::endl;
 }
 
 Dog::~Dog()
 {
+	std::cout << "\t - Dog" << std::endl;
 }
 
 Dog::BREED Dog::GetBreed() const

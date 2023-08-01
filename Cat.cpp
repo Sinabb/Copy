@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Cat.h"
 
-Cat::Cat() :mBreed{BREED::KoreaShort}
+Cat::Cat() :Animal(0,1),mBreed{BREED::KoreaShort}
 {
     std::cout << "\t + Cat" << std::endl;
 }
